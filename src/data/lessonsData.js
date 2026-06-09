@@ -6,11 +6,11 @@ export const lessons = [
   { id: 4, title: 'Node.js Crash Course', youtubeId: 'TlB_eWDSMt4' },
   { id: 5, title: 'Git & GitHub Basics', youtubeId: 'RGOj5yH7evk' },
   { id: 6, title: 'Tailwind CSS Quickstart', youtubeId: '6zIuAyLZPH0' },
-  // The rest are placeholders so the UI supports 20 slots. Replace ids.
+ 
   { id: 7, title: 'Mening darslik', youtubeId: 'https://youtu.be/-UUJ8q6Ei8E?si=4wnZxWHLKK2ejrwO' },
   { id: 8, title: 'Lesson 8 (placeholder)', youtubeId: '' },
   { id: 9, title: 'Lesson 9 (placeholder)', youtubeId: '' },
-  { id: 10, title: 'Lesson 10 (placeholder)', youtubeId: '' },
+  { id: 10, title: 'Lesson 10 (placeholder)', youtubeId: '' },      
   { id: 11, title: 'Lesson 11 (placeholder)', youtubeId: '' },
   { id: 12, title: 'Lesson 12 (placeholder)', youtubeId: '' },
   { id: 13, title: 'Lesson 13 (placeholder)', youtubeId: '' },
