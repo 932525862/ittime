@@ -1,0 +1,88 @@
+.about-section {
+    @apply py-16 bg-gradient-to-b from-white to-gray-50;
+}
+
+.about-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.about-header {
+    @apply text-center mb-16;
+}
+
+.about-title {
+    @apply text-4xl md:text-5xl font-bold text-gray-900 mb-4;
+}
+
+.about-subtitle {
+    @apply text-xl text-gray-600 max-w-3xl mx-auto mb-8;
+}
+
+.about-description {
+    @apply text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed mb-16;
+}
+
+.features-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16;
+}
+
+.feature-card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+}
+
+.feature-icon {
+    @apply text-red-500 w-12 h-12 mb-4;
+}
+
+.feature-title {
+    @apply text-xl font-semibold text-gray-900 mb-2;
+}
+
+.feature-text {
+    @apply text-gray-600;
+}
+
+.stats-section {
+    @apply bg-white py-16 px-4 rounded-2xl shadow-lg mb-16;
+}
+
+.stats-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8;
+}
+
+.stat-item {
+    @apply bg-white rounded-xl p-8 text-center border-2 border-gray-100 hover:border-red-500 transition-colors duration-300 transform hover:scale-105;
+}
+
+.stat-number {
+    @apply text-5xl font-bold mb-3 bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stat-label {
+    @apply text-lg text-gray-700 font-medium;
+}
+
+.team-section {
+    @apply text-center mb-16;
+}
+
+.team-title {
+    @apply text-3xl font-bold text-gray-900 mb-12;
+}
+
+.values-section {
+    @apply bg-white py-12 rounded-xl shadow-lg mt-16;
+}
+
+.values-title {
+    @apply text-3xl font-bold text-gray-900 text-center mb-8;
+}
+
+.values-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4;
+}
+
+.year-badge {
+    @apply inline-flex items-center px-4 py-2 bg-red-100 text-red-800 rounded-full font-semibold text-sm mb-4;
+}

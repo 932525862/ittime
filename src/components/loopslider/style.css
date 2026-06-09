@@ -1,0 +1,31 @@
+.loopslider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  background: white;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  gap: 40px;
+  width: calc(200px * 16);
+}
+
+.loopslider img {
+  height: 90px;
+  width: 200px;
+  padding: 0 20px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

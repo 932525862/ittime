@@ -1,0 +1,7 @@
+.first-mentors-page {
+  @apply bg-gray-50 min-h-screen;
+}
+
+.first-mentors-page h2 {
+  @apply text-gray-800;
+}

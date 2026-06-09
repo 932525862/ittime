@@ -1,0 +1,616 @@
+{
+  "header": {
+    "contact": {
+      "phone": "+998 (99) 999-99-99",
+      "telegram": "Telegram",
+      "email": "Contact us"
+    },
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "courses": "Courses",
+      "mentors": "Mentors",
+      "contact": "Contact",
+      "consultation": "Free consultation"
+    },
+    "burger": {
+      "menu": "Menu",
+      "close": "Close"
+    }
+  },
+  "home": {
+    "FirstIntroPage": {
+      "title": "A reliable future based on experience",
+      "description": "IT Time is an academy of modern professions. We teach using the latest technologies and real projects with the help of experienced professionals. Our goal is to make you a highly paid IT specialist.",
+      "button": "Submit application",
+      "technologies": {
+        "react": "React",
+        "nodejs": "Node.js",
+        "git": "Git",
+        "python": "Python",
+        "html": "HTML5",
+        "css": "CSS3"
+      }
+    },
+    "SecondAboutPage": {
+      "title": "Why choose us?",
+      "cards": {
+        "card1": {
+          "title": "No funds? - We have a solution!",
+          "description": "If you don't have enough funds to attend courses, don't worry. We will help you solve this problem."
+        },
+        "card2": {
+          "title": "Successfully sell your knowledge!",
+          "description": "We not only provide knowledge but also help you successfully sell it and start a career."
+        },
+        "card3": {
+          "title": "Quality training from strong professionals!",
+          "description": "Our teachers are professional representatives of their fields with real work experience."
+        },
+        "card4": {
+          "title": "Practice, real projects and portfolio!",
+          "description": "During training, you work on real projects and form your portfolio."
+        },
+        "card5": {
+          "title": "Modern environment, free Coworking and Wi-Fi",
+          "description": "Comfortable and modern learning environment, free coworking zone and high-speed internet at your disposal."
+        },
+        "card6": {
+          "title": "Certificate",
+          "description": "Every student who successfully completes the course receives a certificate that meets international standards."
+        }
+      }
+    },
+    "ThirdMoviePage": {
+      "title": "Our successful students",
+      "subtitle": "Success stories of our graduates",
+      "browserNotSupported": "Your browser does not support video",
+      "company": "Company",
+      "salary": "Income growth"
+    },
+    "FourthCoursesPage": {
+      "title": "Our Courses",
+      "Front-End": "Front-End Development",
+      "Back-End": "Back-End Development",
+      "Mobilograf": "Mobile Photography",
+      "SMM": "SMM",
+      "Hacker": "Hacker",
+      "courses": {
+        "front-end": [
+          { "name": "React.js", "description": "JavaScript library for building modern user interfaces" },
+          { "name": "Vue.js", "description": "Progressive JavaScript framework" },
+          { "name": "Angular.js", "description": "Platform for building web applications" },
+          { "name": "JavaScript", "description": "Core programming language for web development" },
+          { "name": "HTML/CSS", "description": "Fundamentals of web development" },
+          { "name": "Python", "description": "Universal programming language" }
+        ],
+        "back-end": [
+          { "name": "Node.js", "description": "JavaScript runtime for server-side development" },
+          { "name": "Express.js", "description": "Web framework for Node.js" },
+          { "name": "MongoDB", "description": "NoSQL database" },
+          { "name": "SQL", "description": "Relational database management" },
+          { "name": "PHP", "description": "Server-side scripting language" }
+        ],
+        "mobilograf": [
+          { "name": "Video Editing", "description": "Professional video editing and post-production" },
+          { "name": "Mobile Photography", "description": "Professional photography using mobile devices" },
+          { "name": "Color Grading", "description": "Color grading for videos and photos" },
+          { "name": "Composition", "description": "Professional frame composition" },
+          { "name": "Content Creation", "description": "Creative content creation" }
+        ],
+        "smm": [
+          { "name": "Social Media Marketing", "description": "Creating marketing strategies through social networks" },
+          { "name": "Content Planning", "description": "Content planning and calendar creation" },
+          { "name": "Community Management", "description": "Managing social media communities" },
+          { "name": "Analytics & Targeting", "description": "Targeting and data analysis" },
+          { "name": "Brand Development", "description": "Brand development and strategy" }
+        ],
+        "hacker": [
+          { "name": "Cyber Security", "description": "Fundamentals of cyber security and protection methods" },
+          { "name": "Ethical Hacking", "description": "Ethical hacking and system testing" },
+          { "name": "Network Security", "description": "Network security and threat protection" },
+          { "name": "Penetration Testing","description": "Identifying and testing vulnerabilities" },
+          { "name": "Security Tools", "description": "Security tools and programs" }
+        ]
+      }
+    },
+    "FifthInfoPage": {
+      "title": "Our Achievements",
+      "subtitle": "IT Time Academy - Learn the Professions of the Future",
+      "description": "Our training center provides professional education in modern programming technologies, mobile graphics, and SMM. Through experienced teachers and practical projects, you will become a modern specialist.",
+      "stats": [
+        {
+          "text": "Modern Courses",
+          "suffix": "+"
+        },
+        {
+          "text": "Graduates",
+          "suffix": "+"
+        },
+        {
+          "text": "Employment Rate",
+          "suffix": "%"
+        },
+        {
+          "text": "Average Rating",
+          "suffix": ""
+        }
+      ],
+      "achievements": [
+        {
+          "text": "Top IT Academy"
+        },
+        {
+          "text": "International Certificates"
+        },
+        {
+          "text": "IT Company Partnerships"
+        },
+        {
+          "text": "Practical Education"
+        }
+      ]
+    },
+    "SixthRezumePage": {
+      "features": {
+        "guaranteedJob": {
+          "title": "Guaranteed Job",
+          "description": "We help you find a job that matches your qualifications"
+        },
+        "goodSalary": {
+          "title": "Good Salary",
+          "description": "High income and opportunities in the IT field"
+        },
+        "careerGrowth": {
+          "title": "Career Growth",
+          "description": "Continuous development and new opportunities"
+        },
+        "professionalEducation": {
+          "title": "Professional Education",
+          "description": "Learn from experienced teachers"
+        },
+        "practicalExperience": {
+          "title": "Practical Experience",
+          "description": "Work on real projects"
+        },
+        "careerSupport": {
+          "title": "Career Support",
+          "description": "Help and advice in employment"
+        }
+      },
+      "tabs": {
+        "course": "Enroll in Course",
+        "job": "Apply for Job"
+      },
+      "course": {
+        "title": "Enroll in Our Courses",
+        "description": "Learn modern professions from professional mentors and find your place in IT!",
+        "formTitle": "Course Registration"
+      },
+      "job": {
+        "title": "Want to Get a Job?",
+        "description": "Send your resume and we will contact you. You can get a job after successfully passing the interview!",
+        "formTitle": "Submit Resume"
+      },
+      "forms": {
+        "common": {
+          "fullName": "Full name",
+          "phone": "Phone number",
+          "submit": "Submit",
+          "thankYou": "Thank you!",
+          "willContact": "Dear {name}, we will contact you soon!"
+        },
+        "job": {
+          "email": "Email address",
+          "about": "About yourself",
+          "experience": "Work experience",
+          "skills": "Skills",
+          "uploadResume": "Upload resume",
+          "chooseFile": "Choose file",
+          "noFileChosen": "No file chosen"
+        },
+        "course": {
+          "selectCourse": "Select course",
+          "courseTypes": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "mobile": "Mobile"
+          },
+          "additionalMessage": "Additional message"
+        },
+        "errors": {
+          "required": "This field is required",
+          "invalidEmail": "Invalid email address",
+          "invalidPhone": "Invalid phone number",
+          "fileRequired": "Please upload your resume"
+        }
+      },
+      "messages": {
+        "success": {
+          "resume": "Resume successfully sent!",
+          "application": "Application successfully sent!"
+        },
+        "error": "An error occurred"
+      }
+    },
+    "SeventhMentorsPage": {
+      "title": "Our mentors",
+      "subtitle": "Experienced professionals who will help you achieve success"
+    },
+    "EighthSalePage": {
+      "badge": {
+        "label": "BONUS",
+        "amount": "500 000",
+        "currency": "sum"
+      },
+      "offer": {
+        "label": "Special Offer",
+        "title": {
+          "part1": "Build the future",
+          "highlight": "together",
+          "part2": "with your friend!"
+        }
+      },
+      "content": {
+        "description": "Studying at IT Time Academy is an investment in the future! Invite your friend and get a 500,000 sum bonus.",
+        "benefits": {
+          "reward": "500,000 sum reward for each friend",
+          "discount": "20% discount for your friend",
+          "mentors": "Study with professional mentors",
+          "skills": "Modern programming skills"
+        },
+        "action": {
+          "button": "Invite a Friend",
+          "note": "* Offer valid for a limited time"
+        }
+      }
+    },
+    "NinthWorkingPage": {
+      "teamTitle": "Our Team",
+      "partnersTitle": "Partners",
+      "teams": {
+        "frontend": {
+          "title": "Frontend Development",
+          "description": "Dive into the world of modern frontend development! Learn React, JavaScript and create amazing user interfaces with the help of experienced mentors."
+        },
+        "backend": {
+          "title": "Backend Development",
+          "description": "Become an expert in backend development! Learn to work with databases, APIs, and server architecture. Create reliable and scalable applications."
+        },
+        "smm": {
+          "title": "SMM Marketing",
+          "description": "Learn to develop brands on social networks! Study content marketing strategies, analytics, and SMM promotion tools. Work with practical projects."
+        }
+      }
+    },
+    "TenthConsultContactPage": {
+      "contact": {
+        "title": "Contact Us",
+        "telegram": {
+          "title": "Telegram",
+          "value": "@it_time"
+        },
+        "phone": {
+          "title": "Phone",
+          "value": "+998 (94) 782 00 92"
+        },
+        "email": {
+          "title": "Email",
+          "value": "ittimeacademy@gmail.com"
+        },
+        "address": {
+          "title": "Address",
+          "value": "Tashkent, Amir Temur Avenuem 100A"
+        }
+      },
+      "consultation": {
+        "mainText": "IT is the future, learn one of the modern professions with IT Time Academy from experienced mentors!",
+        "form": {
+          "title": "Free Consultation",
+          "name": {
+            "placeholder": "Your name",
+            "errors": {
+              "required": "Please enter your name",
+              "min": "Name must be at least 2 characters long",
+              "max": "Name must not exceed 50 characters"
+            }
+          },
+          "phone": {
+            "placeholder": "+998",
+            "errors": {
+              "required": "Please enter your phone number",
+              "invalid": "Phone number must be in format +998 XX XXX XX XX"
+            }
+          },
+          "submit": "Submit"
+        },
+        "modal": {
+          "title": "Thank you!",
+          "text": "Dear {name}, we will contact you soon!"
+        }
+      }
+    }
+  },
+  "about": {
+    "FirstAboutPage": {
+      "header": {
+        "yearBadge": "At your service since 2017",
+        "title": "IT TIME ACADEMY",
+        "subtitle": "Modern IT Education Center - the best choice for learning future professions",
+        "description": "IT TIME ACADEMY is one of the largest and most reliable programming schools in Uzbekistan. Since 2017, we have been providing quality education to thousands of young people in modern IT professions. Our goal is not only to teach programming but also to prepare each student for a successful future career. We pay special attention to the individual development of each student and use modern teaching methods."
+      },
+      "features": {
+        "modern": {
+          "title": "Modern Programming",
+          "description": "Teaching the latest technologies and programming languages"
+        },
+        "teachers": {
+          "title": "Experienced Teachers",
+          "description": "Education from professional mentors and practicing programmers"
+        },
+        "practice": {
+          "title": "Practical Experience",
+          "description": "Work on real projects and portfolio creation"
+        }
+      },
+      "stats": {
+        "graduates": {
+          "label": "Successful Graduates"
+        },
+        "teachers": {
+          "label": "Professional Teachers"
+        },
+        "courses": {
+          "label": "Modern Courses"
+        },
+        "employment": {
+          "label": "Employment Rate"
+        }
+      },
+      "advantages": {
+        "sectionTitle": "Top IT Academy",
+        "certificates": {
+          "title": "International Certificates",
+          "description": "We provide certificates that meet international standards"
+        },
+        "partnership": {
+          "title": "IT Company Partnerships",
+          "description": "Working in partnership with leading IT companies"
+        },
+        "education": {
+          "title": "Practical Training",
+          "description": "We develop practical skills along with theoretical knowledge"
+        }
+      },
+      "values": {
+        "sectionTitle": "Our Values",
+        "individual": {
+          "title": "Individual Approach",
+          "description": "Special attention and support for each student"
+        },
+        "quality": {
+          "title": "Quality Education",
+          "description": "Curriculum that meets international standards"
+        },
+        "career": {
+          "title": "Career Support",
+          "description": "Help and advice in employment"
+        }
+      }
+    }
+  },
+  "mentors": {
+    "FirstMentorsPage": {
+      "pageTitle": "Our mentors",
+      "pageSubtitle": "Experienced professionals who will help you achieve success",
+      "specializationLabel": "Specialization"
+    }
+  },
+  "courses": {
+    "currency": "sum",
+    "month": "month",
+    "fullPrice": "Full course price",
+    "fullPriceDescription": "Payment for the entire course",
+    "totalAmount": "Total Amount",
+    "installmentTitle": "Installment Terms",
+    "monthlyPayment": "Monthly Payment",
+    "totalWithInstallment": "Total with installment",
+    "installmentDescription": "Important information about installment payments",
+    "installmentRequirements": {
+      "work": "For installment, you must be officially employed",
+      "guarantor": "If you are not employed, you need a guarantor with official employment",
+      "documents": "Passport required (yours and guarantor's if needed)",
+      "payment": "Payment must be made 2 months after completing the course!"
+    },
+    "installmentNote": "* Monthly installment payment includes 30% additional fee",
+    "notFound": "Course not found",
+    "aboutCourse": "About Course",
+    "duration": "Duration",
+    "moreDetails": "What is required for installment",
+    "FirstCoursesPage": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Learn to create modern web applications",
+        "duration": "6 months",
+        "price": "1 200 000"
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Server-side development. Node.js, Python, databases and API creation",
+        "duration": "8 months",
+        "price": "1 200 000"
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Mobile application development. Modern apps for Android and iOS platforms",
+        "duration": "7 months",
+        "price": "1 200 000"
+      },
+      "smm": {
+        "title": "SMM",
+        "description": "Social Media Marketing. Strategy, content creation and audience engagement",
+        "duration": "3 months",
+        "price": "1 500 000"
+      },
+      "design": {
+        "title": "Design",
+        "description": "UI/UX design basics. Graphic design, interface creation for web and mobile applications",
+        "duration": "4 months",
+        "price": "1 500 000"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Digital marketing strategies. Internet marketing, SEO and advertising campaigns",
+        "duration": "4 months",
+        "price": "1 500 000"
+      },
+      "button": "Learn More",
+      "installment": "Installment Available"
+    }
+  },
+  "contact": {
+    "FirstContactPage": {
+      "title": "Want to get in touch?",
+      "subtitle": "Fill out the form and we will contact you",
+      "form": {
+        "name": {
+          "label": "Your Name",
+          "placeholder": "Enter your name",
+          "errors": {
+            "required": "Name is required",
+            "min": "Name must be at least 2 characters"
+          }
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+998",
+          "errors": {
+            "invalid": "Please enter a valid phone number"
+          }
+        },
+        "message": "Your message",
+        "submit": "Submit",
+        "modal": {
+          "title": "Thank you!",
+          "text": "Dear {name}, we will contact you soon!"
+        }
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "IT Time Academy",
+      "description": "An educational center that teaches modern IT professions at a professional level. Learn future professions with us!"
+    },
+    "courses": {
+      "title": "Courses"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Tashkent, Amir Temur Avenuem 100A",
+      "phone": "+998 (94) 782 00 92",
+      "email":"ittimeacademy@gmail.com",
+      "workingHours": "Mon-Sat: 09:00 - 22:00"
+    },
+    "copyright": {
+      "text": "All rights reserved"
+    },
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "arizaModal": {
+    "title": "Submit Application",
+    "description": "Submit an application for the course you are interested in and we will contact you",
+    "form": {
+      "name": "Your Name",
+      "selectCourse": "Select Course",
+      "phone": "Your Phone Number",
+      "submit": "Submit"
+    },
+    "errors": {
+      "name": {
+        "required": "This field is required",
+        "min": "Name must be at least 2 characters long",
+        "max": "Name must not exceed 50 characters"
+      },
+      "course": {
+        "required": "Please select a course"
+      },
+      "phone": {
+        "required": "Phone number is required",
+        "invalid": "Phone number must be in format +998 XX XXX XX XX"
+      }
+    }
+  },
+  "consultationModal": {
+    "title": "Free Consultation",
+    "description": "Fill out the form and we will contact you",
+    "form": {
+      "name": "Your name",
+      "selectCourse": "Select a course",
+      "phone": "Your phone number",
+      "submit": "Submit"
+    },
+    "errors": {
+      "name": {
+        "required": "This field is required",
+        "min": "Name must be at least 2 characters long",
+        "max": "Name must not exceed 50 characters"
+      },
+      "course": {
+        "required": "Please select a course"
+      },
+      "phone": {
+        "required": "Phone number is required",
+        "invalid": "Phone number must be in format +998 XX XXX XX XX"
+      }
+    }
+  },
+  "successModal": {
+    "title": "Thank you!",
+    "text": "Dear {name}, your application has been received. We will contact you soon!"
+  },
+  "modal": {
+    "promotion": {
+      "title": " Super Promotion!",
+      "subtitle": "Get a bonus for inviting a friend!",
+      "conditions": {
+        "title": "Promotion conditions:",
+        "student": "You must be our student (current or former) for at least 1 month",
+        "invite": "Invite a friend to study at our academy"
+      },
+      "benefits": {
+        "title": "Your benefits:",
+        "yourBonus": "You get 500,000 UZS for your next payment or course",
+        "friendBonus": "Your friend gets a 20% discount on tuition"
+      },
+      "note": "* Promotion is valid subject to all conditions"
+    }
+  },
+  "buttons": {
+    "details": "Details"
+  },
+  "validation": {
+    "resume": {
+      "required": "Please upload your resume file",
+      "fileType": "Only PDF or Word (doc, docx) files are allowed",
+      "fileSize": "File size should not exceed 5MB"
+    },
+    "education": {
+      "minLength": "Please enter at least 10 characters about your education",
+      "maxLength": "Education information should not exceed 500 characters"
+    },
+    "experience": {
+      "minLength": "Please enter at least 10 characters about your work experience",
+      "maxLength": "Work experience information should not exceed 1000 characters"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "The page you are looking for doesn't exist or has been moved.",
+    "button": "Go Back Home"
+  }
+}

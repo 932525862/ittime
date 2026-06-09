@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /ru/
+Allow: /uz/
+Allow: /en/
+Allow: /sitemap.xml
+
+# Разрешаем индексацию всех страниц
+Disallow: /node_modules/
+Disallow: /src/assets/
+Disallow: /.git/
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /.env
+
+# Указываем расположение sitemap
+Sitemap: https://www.ittimeacademy.uz/sitemap.xml
+
+# Устанавливаем скорость обхода
+Crawl-delay: 1

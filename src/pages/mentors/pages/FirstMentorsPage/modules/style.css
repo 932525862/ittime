@@ -1,0 +1,116 @@
+.first-mentor-card {
+  @apply flex bg-white rounded-2xl overflow-hidden;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.first-mentor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.2);
+}
+
+.first-mentor-image-section {
+  @apply w-[350px] flex-shrink-0 relative;
+}
+
+.first-mentor-image-container {
+  @apply w-full h-[400px] relative overflow-hidden;
+}
+
+.first-mentor-image {
+  @apply w-full h-full object-cover transition-transform duration-500;
+}
+
+.first-mentor-card:hover .first-mentor-image {
+  transform: scale(1.05);
+}
+
+.first-mentor-overlay {
+  @apply absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300;
+}
+
+.first-mentor-card:hover .first-mentor-overlay {
+  @apply opacity-100;
+}
+
+.first-mentor-social-icons {
+  @apply absolute bottom-4 left-4 flex gap-4;
+}
+
+.social-link {
+  @apply text-white text-2xl opacity-0 transform translate-y-4 transition-all duration-300;
+}
+
+.first-mentor-card:hover .social-link {
+  @apply opacity-100 translate-y-0;
+}
+
+.social-link:hover {
+  @apply text-blue-400;
+}
+
+.first-mentor-content {
+  @apply flex-1 p-8 flex flex-col;
+}
+
+.first-mentor-info {
+  @apply mb-6;
+}
+
+.first-mentor-name {
+  @apply text-2xl font-bold text-gray-800 mb-2;
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-mentor-position {
+  @apply text-gray-600 text-lg;
+}
+
+.first-mentor-details {
+  @apply flex-1 flex flex-col justify-between;
+}
+
+.first-mentor-description {
+  @apply text-gray-600 mb-6 leading-relaxed;
+}
+
+.first-mentor-skills {
+  @apply mt-auto;
+}
+
+.skills-label {
+  @apply text-sm text-gray-500 mb-2 block;
+}
+
+.skills-tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.skill-tag {
+  @apply px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  @apply bg-blue-100;
+}
+
+@media (max-width: 1024px) {
+  .first-mentor-card {
+    @apply flex-col;
+  }
+
+  .first-mentor-image-section {
+    @apply w-full;
+  }
+
+  .first-mentor-image-container {
+    @apply h-[300px];
+  }
+
+  .first-mentor-content {
+    @apply p-6;
+  }
+}

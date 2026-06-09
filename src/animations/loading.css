@@ -1,0 +1,192 @@
+/* Основной контейнер */
+.container-logotipe {
+    position: fixed;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+  }
+  
+  /* Логотип, центрированный */
+  .logotipe {
+    width: 320px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOGO BLOCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+  .logotipe__black-center {
+    position: absolute;
+    top: 56% ;
+    left:20%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: slideInFromCenter 0.5s ease forwards;
+    animation-delay: 1s;
+  }
+  
+  /* Элемент .logotipe_black-top анимируется из левой части с вращением */
+  .logotipe__black-top {
+    position: absolute;
+    opacity: 0;
+    width: 60px;
+    top:36%;
+    left:11%;
+    /* transform: rotate(0deg) translate(-50%, -50%); */
+    animation: slideInFromLeft 1s ease forwards;
+  }
+  
+  /* Элемент .logotipe_red-bottom анимируется из правой части с вращением */
+  .logotipe__red-bottom {
+    position: absolute;
+    opacity: 0;
+    width: 60px;
+    top: 24%;
+      left:19%;
+    animation: slideInFromRight 1s ease forwards;
+  }
+  .block-center{
+    width: 60px;
+    height: 60px;
+     top:43%;
+     left:19%;
+    position: relative;
+    transform: translate(-50%, -50%);
+  }
+  .block-center img{
+    width: 30px;
+   }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOGO BLOCK ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /* Анимация для перемещения слева направо с вращением */
+  @keyframes slideInFromLeft {
+    0% {
+      left: -250%;
+      opacity: 0;
+       top:36%;
+      transform: rotate(-113deg);
+    }
+  
+    65% {
+      top:38%;
+      left:11%;
+      opacity: 1;
+      transform: rotate(-90deg);
+  
+    }
+    90% {
+      top:38%;
+      left:11%;
+      opacity: 1;
+      transform: rotate(-90deg);
+  
+    }
+    100% {
+      top:36.5%;
+      left:11%;
+      opacity: 1;
+      transform: rotate(0deg);
+    
+    }
+  }
+  
+  /* Анимация для перемещения справа налево с вращением */
+  @keyframes slideInFromRight {
+    0% {
+      left: 250%;
+      opacity: 0;
+      transform: rotate(-70deg);
+      top: 39%;
+    }
+  
+    65% {
+      opacity: 1;
+      top: 37%;
+      left:19%;
+      transform: rotate(-90deg);
+  
+    }
+    90% {
+      opacity: 1;
+      top: 37%;
+      left:19%;
+      transform: rotate(-90deg);
+  
+    }
+  
+    100% {
+      opacity: 1;
+      top: 42%;
+      left:11%;
+       transform: rotate(0deg);
+     }
+  }
+  .block-text{
+    width: 200px;
+    height: 80px;
+    /* border:1px solid aqua; */
+    position: relative;
+    top:30%;
+    left:65%;
+    transform: translate(-50%, -50%);
+  }
+  @keyframes slideInFromCenter {
+    0% {
+      opacity: 0;
+      left:-100dvh;
+    }
+  
+    100% {
+      opacity: 1;
+      left:21%;
+    }
+  
+  }
+  
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOGO TEXT ALL~~~~~~~~~~~~~~~~~~~~~~~ */
+  .center-text {
+    position: relative;
+    font-size: 24px;
+    color: white;
+    z-index: 1;
+  }
+  .logotipe__black-text{
+     position: absolute;
+     width: 190px;
+     opacity: 0;
+     top:0;
+     animation: topblacktext 0.5s ease forwards;
+     animation-delay: 1.5s;
+  }
+  .logotipe__red-text{
+    position: absolute;
+    bottom:0;
+    opacity: 0;
+    width: 190px;
+    animation: bottomredtext 0.5s ease forwards;
+    animation-delay: 1.5s;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOGO TEXT ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  @keyframes topblacktext {
+    0%{
+       opacity: 0;
+       top:-100dvh;
+    }
+    100%{
+      opacity: 1;
+      top:0;
+    }
+  }
+  @keyframes bottomredtext {
+    0%{
+       opacity: 0;
+       bottom:-100dvh;
+    }
+    100%{
+      opacity: 1;
+      bottom:0;
+    }
+  }
+  

@@ -1,0 +1,53 @@
+/* Основные стили */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Стили для текста */
+  .text-line {
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .second-line {
+    padding: 0;
+  }
+  
+  .red-text {
+    color: #226ee7;
+  }
+  
+  .black-text {
+    color: black;
+    white-space: pre;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 1024px) {
+    .text-container {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-container {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-container {
+      font-size: 24px;
+      line-height: 1.1;
+    }
+  }
+  

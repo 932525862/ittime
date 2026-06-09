@@ -1,0 +1,641 @@
+{
+  "header": {
+    "contact": {
+      "phone": "+998 (99) 999-99-99",
+      "telegram": "Telegram",
+      "email": "Biz bilan bog'lanish"
+    },
+    "menu": {
+      "home": "Asosiy",
+      "about": "Biz haqimizda",
+      "courses": "Kurslar",
+      "mentors": "Mentorlar",
+      "contact": "Aloqa",
+      "consultation": "Bepul konsultatsiya"
+    },
+    "burger": {
+      "menu": "Menyu",
+      "close": "Yopish"
+    }
+  },
+  "home": {
+    "FirstIntroPage": {
+      "title": "Tajribaga asoslangan ishonchli kelajak",
+      "description": "IT Time - zamonaviy kasblar akademiyasi. Biz eng so'nggi texnologiyalar va real loyihalar yordamida tajribali mutaxassislar yordamida o'qitamiz. Bizning maqsadimiz - sizni yuqori maoshli IT mutaxassisiga aylantirish.",
+      "button": "Ariza qoldirish",
+      "technologies": {
+        "react": "React",
+        "nodejs": "Node.js",
+        "git": "Git",
+        "python": "Python",
+        "html": "HTML5",
+        "css": "CSS3"
+      }
+    },
+    "SecondAboutPage": {
+      "title": "Nega aynan bizni tanlashingiz kerak?",
+      "cards": {
+        "card1": {
+          "title": "Mablag' yo'qmi? - Bizda yechim bor!",
+          "description": "Agar kurslarga qatnashish uchun yetarli mablag'ingiz bo'lmasa, tushkunlikka tushmang. Biz sizga bu muammoni hal qilishda yordam beramiz."
+        },
+        "card2": {
+          "title": "Bilimingizni muvaffaqiyatli soting!",
+          "description": "Biz nafaqat bilim beramiz, balki uni muvaffaqiyatli sotish va karyerangizni boshlashga yordam beramiz."
+        },
+        "card3": {
+          "title": "Kuchli mutaxassislardan sifatli ta'lim!",
+          "description": "Bizning o'qituvchilarimiz - o'z sohalarining real ish tajribasiga ega professional vakillari."
+        },
+        "card4": {
+          "title": "Amaliyot, real loyihalar va portfolio!",
+          "description": "O'qish jarayonida siz real loyihalar ustida ishlaysiz va portfoliongizni shakllantirasiz."
+        },
+        "card5": {
+          "title": "Zamonaviy muhit, bepul Coworking va Wi-Fi",
+          "description": "Qulay va zamonaviy o'quv muhiti, bepul coworking zona va yuqori tezlikdagi internet sizning ixtiyoringizda."
+        },
+        "card6": {
+          "title": "Sertifikat",
+          "description": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
+        }
+      }
+    },
+    "ThirdMoviePage": {
+      "title": "Bizning muvaffaqiyatli o'quvchilarimiz",
+      "subtitle": "Bitiruvchilarimiz muvaffaqiyat tarixi",
+      "browserNotSupported": "Brauzeringiz videoni qo'llab-quvvatlamaydi",
+      "company": "Kompaniya",
+      "salary": "Daromad o'sishi"
+    },
+    "FourthCoursesPage": {
+      "title": "Bizning kurslar",
+      "Front-End": "Front-End dasturlash",
+      "Back-End": "Back-End dasturlash",
+      "Mobilograf": "Mobilograf",
+      "SMM": "SMM",
+      "Hacker": "Xaker",
+      "courses": {
+        "front-end": [
+          { "name": "React.js", "description": "Zamonaviy foydalanuvchi interfeyslarini yaratish uchun JavaScript kutubxonasi" },
+          { "name": "Vue.js", "description": "Progressive JavaScript freymvorki" },
+          { "name": "Angular.js", "description": "Veb-ilovalarni yaratish platformasi" },
+          { "name": "JavaScript", "description": "Veb-dasturlash uchun asosiy dasturlash tili" },
+          { "name": "HTML/CSS", "description": "Veb-dasturlashning poydevori" },
+          { "name": "Python", "description": "Universal dasturlash tili" }
+        ],
+        "back-end": [
+          { "name": "Node.js", "description": "Server tomonidagi dasturlash uchun JavaScript muhiti" },
+          { "name": "Express.js", "description": "Node.js uchun veb-freymvork" },
+          { "name": "MongoDB", "description": "NoSQL ma'lumotlar bazasi" },
+          { "name": "SQL", "description": "Relyatsion ma'lumotlar bazasini boshqarish" },
+          { "name": "PHP", "description": "Server tomonidagi skript tili" }
+        ],
+        "mobilograf": [
+          { "name": "Video montaj", "description": "Professional video montaj va tahrirlash" },
+          { "name": "Mobil fotografiya", "description": "Mobil qurilmada professional suratga olish" },
+          { "name": "Rang gradatsiya", "description": "Video va rasmlarni rangli gradatsiya qilish" },
+          { "name": "Kompozitsiya", "description": "Kadrni professional tarzda kompozitsiya qilish" },
+          { "name": "Kontent yaratish", "description": "Ijodiy kontent yaratish" }
+        ],
+        "smm": [
+          { "name": "Social Media Marketing", "description": "Ijtimoiy tarmoqlar marketingi. Strategiya, kontent yaratish va auditoriya bilan ishlash." },
+          { "name": "Kontent rejalashtirish", "description": "Kontent rejalashtirish va taqvim yaratish" },
+          { "name": "Jamiyatni boshqarish", "description": "Ijtimoiy tarmoqlarda hamjamiyatni boshqarish" },
+          { "name": "Tahlil va targetlash", "description": "Targetlash va ma'lumotlarni tahlil qilish" },
+          { "name": "Brend rivojlantirish", "description": "Brendni rivojlantirish va strategiya" }
+        ],
+        "hacker": [
+          { "name": "Kiberhavfsizlik", "description": "Kiberhavfsizlik asoslari va himoya usullari" },
+          { "name": "Etik hacking", "description": "Axloqiy hacking va tizimlarni testlash" },
+          { "name": "Tarmoq xavfsizligi", "description": "Tarmoq xavfsizligi va tahdidlardan himoya" },
+          { "name": "Penetration Testing", "description": "Zaifliklarni aniqlash va testlash" }, 
+          { "name": "Security Tools", "description": "Xavfsizlik vositalari va dasturlar" }
+        ]
+      }
+    },
+    "FifthInfoPage": {
+      "title": "Bizning Yutuqlarimiz",
+      "subtitle": "IT Time Academy - Kelajak kasblarini o'rganing",
+      "description": "Bizning o'quv markazimiz zamonaviy dasturlash texnologiyalari, mobil grafikalar va SMM sohasida professional ta'lim beradi. Tajribali o'qituvchilar va amaliy loyihalar orqali siz zamonaviy mutaxassis bo'lib yetishasiz.",
+      "stats": [
+        {
+          "text": "Zamonaviy kurslar",
+          "suffix": "+"
+        },
+        {
+          "text": "Bitiruvchilar",
+          "suffix": "+"
+        },
+        {
+          "text": "Ishga joylashish darajasi",
+          "suffix": "%"
+        },
+        {
+          "text": "O'rtacha reyting",
+          "suffix": ""
+        }
+      ],
+      "achievements": [
+        {
+          "text": "Top IT akademiya"
+        },
+        {
+          "text": "Xalqaro sertifikatlar"
+        },
+        {
+          "text": "IT kompaniyalar bilan hamkorlik"
+        },
+        {
+          "text": "Amaliy ta'lim"
+        }
+      ]
+    },
+    "SixthRezumePage": {
+      "features": {
+        "guaranteedJob": {
+          "title": "Kafolatlangan ish",
+          "description": "Malakangizga mos ish topishda yordam beramiz"
+        },
+        "goodSalary": {
+          "title": "Yaxshi maosh",
+          "description": "IT sohasida yuqori daromad va imkoniyatlar"
+        },
+        "careerGrowth": {
+          "title": "Karyera o'sishi",
+          "description": "Doimiy rivojlanish va yangi imkoniyatlar"
+        },
+        "professionalEducation": {
+          "title": "Professional ta'lim",
+          "description": "Tajribali o'qituvchilardan bilim oling"
+        },
+        "practicalExperience": {
+          "title": "Amaliy tajriba",
+          "description": "Real loyihalar ustida ishlash"
+        },
+        "careerSupport": {
+          "title": "Karyera qo'llab-quvvatlash",
+          "description": "Karyerangizni rivojlantirishda yordam"
+        }
+      },
+      "tabs": {
+        "course": "Kursga yozilish",
+        "job": "Ishga joylashish"
+      },
+      "course": {
+        "title": "Kurslarimizga yoziling",
+        "description": "Zamonaviy kasblarni professional ustozlardan o'rganing va IT sohasida o'z o'rningizni toping!",
+        "formTitle": "Kursga yozilish"
+      },
+      "job": {
+        "title": "Ishga joylashishni hohlaysizmi?",
+        "description": "Rezyume yuboring va biz siz bilan bog'lanamiz. Suhbatdan muvaffaqiyatli o'tganingizdan so'ng ishga joylashishingiz mumkin!",
+        "formTitle": "Rezyume yuborish"
+      },
+      "forms": {
+        "common": {
+          "fullName": "Ism familiyangiz",
+          "phone": "Telefon raqamingiz",
+          "submit": "Yuborish",
+          "thankYou": "Rahmat!",
+          "willContact": "Hurmatli {name}, siz bilan tez orada bog'lanamiz!"
+        },
+        "job": {
+          "email": "Email manzilingiz",
+          "about": "O'zingiz haqingizda",
+          "experience": "Ish tajribangiz",
+          "skills": "Ko'nikmalaringiz",
+          "uploadResume": "Rezyume yuklash",
+          "chooseFile": "Faylni tanlang",
+          "noFileChosen": "Fayl tanlanmagan"
+        },
+        "course": {
+          "selectCourse": "Kursni tanlang",
+          "courseTypes": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "mobile": "Mobile"
+          },
+          "additionalMessage": "Qo'shimcha xabar"
+        },
+        "errors": {
+          "required": "Bu maydon to'ldirilishi shart",
+          "invalidEmail": "Email manzili noto'g'ri",
+          "invalidPhone": "Telefon raqami noto'g'ri",
+          "fileRequired": "Iltimos, rezyume yuklang"
+        }
+      },
+      "messages": {
+        "success": {
+          "resume": "Rezyume muvaffaqiyatli yuborildi!",
+          "application": "Ariza muvaffaqiyatli yuborildi!"
+        },
+        "error": "Xatolik yuz berdi"
+      }
+    },
+    "SeventhMentorsPage": {
+      "title": "Bizning mentorlar",
+      "subtitle": "Sizga muvaffaqiyatga erishishga yordam beradigan tajribali mutaxassislar"
+    },
+    "EighthSalePage": {
+      "badge": {
+        "label": "BONUS",
+        "amount": "500 000",
+        "currency": "so'm"
+      },
+      "offer": {
+        "label": "Maxsus Taklif",
+        "title": {
+          "part1": "Do'stingiz bilan birga",
+          "highlight": "kelajakni",
+          "part2": "quring!"
+        }
+      },
+      "content": {
+        "description": "IT Time Academy'da o'qish - bu kelajakga investitsiya! Do'stingizni taklif qiling va 500 ming so'm bonus oling.",
+        "benefits": {
+          "reward": "Har bir do'stingiz uchun 500 000 so'm mukofot",
+          "discount": "Do'stingizga 20% chegirma",
+          "mentors": "Professional mentorlar bilan birga o'qish",
+          "skills": "Zamonaviy dasturlash ko'nikmalari"
+        },
+        "action": {
+          "button": "Do'stimni taklif qilish",
+          "note": "* Aksiya cheklangan vaqtgacha amal qiladi"
+        }
+      }
+    },
+    "NinthWorkingPage": {
+      "teamTitle": "Bizning jamoa",
+      "partnersTitle": "Hamkorlar",
+      "teams": {
+        "frontend": {
+          "title": "Frontend dasturlash",
+          "description": "Zamonaviy frontend dasturlash dunyosiga sho'ng'ing! React, JavaScript-ni o'rganing va tajribali ustozlar yordamida ajoyib foydalanuvchi interfeyslarini yarating."
+        },
+        "backend": {
+          "title": "Backend dasturlash",
+          "description": "Backend dasturlashda ekspert bo'ling! Ma'lumotlar bazasi, API va server arxitekturasi bilan ishlashni o'rganing. Ishonchli va kengaytiriladigan ilovalarni yarating."
+        },
+        "smm": {
+          "title": "SMM marketing",
+          "description": "Ijtimoiy tarmoqlar marketingi. Strategiya, kontent yaratish va auditoriya bilan ishlash."
+        }
+      }
+    },
+    "TenthConsultContactPage": {
+      "contact": {
+        "title": "Biz bilan bog'lanish",
+        "telegram": {
+          "title": "Telegram",
+          "value": "@it_time"
+        },
+        "phone": {
+          "title": "Telefon",
+          "value": "+998 (94) 782 00 92"
+        },
+        "email": {
+          "title": "Email",
+          "value": "ittimeacademy@gmail.com"
+        },
+        "address": {
+          "title": "Manzil",
+          "value": "Toshkent, Amir Temur shoh ko‘chasi, 100A."
+        }
+      },
+      "consultation": {
+        "mainText": "IT - bu kelajak, zamonaviy kasblardan birini IT Time Academy bilan tajribali ustozlardan o'rganing!",
+        "form": {
+          "title": "Bepul konsultatsiya",
+          "name": {
+            "placeholder": "Ismingiz",
+            "errors": {
+              "required": "Ism kiritish majburiy",
+              "min": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+              "max": "Ism 50 ta belgidan oshmasligi kerak"
+            }
+          },
+          "phone": {
+            "placeholder": "+998",
+            "errors": {
+              "required": "Telefon raqam kiritish majburiy",
+              "invalid": "Telefon raqami +998 XX XXX XX XX formatida bo'lishi kerak"
+            }
+          },
+          "submit": "Yuborish"
+        },
+        "modal": {
+          "title": "Rahmat!",
+          "text": "Hurmatli {name}, tez orada siz bilan bog'lanamiz!"
+        }
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "IT Time Academy",
+        "description": "Zamonaviy IT kasblarini professional darajada o'rgatuvchi o'quv markazi. Kelajak kasblarini biz bilan o'rganing!"
+      },
+      "courses": {
+        "title": "Kurslar"
+      },
+      "contact": {
+        "title": "Bog'lanish",
+        "address": "Toshkent, Amir Temur shoh ko‘chasi, 100A.",
+        "phone": "+998 (94) 782 00 92",
+        "email": "ittimeacademy@gmail.com",
+        "workingHours": "Du-Sha: 09:00 - 22:00"
+      },
+      "copyright": {
+        "text": "Barcha huquqlar himoyalangan"
+      },
+      "links": {
+        "privacy": "Maxfiylik siyosati",
+        "terms": "Foydalanish shartlari"
+      }
+    }
+  },
+  "about": {
+    "FirstAboutPage": {
+      "header": {
+        "yearBadge": "2017 yildan buyon xizmatingizda",
+        "title": "IT TIME ACADEMY",
+        "subtitle": "Zamonaviy IT ta'lim markazi - kelajak kasblarini o'rganish uchun eng yaxshi tanlov",
+        "description": "IT TIME ACADEMY - O'zbekistonning eng yirik va ishonchli dasturlash maktablaridan biri. 2017-yildan buyon biz minglab yoshlarga zamonaviy IT kasblari bo'yicha sifatli ta'lim berib kelmoqdamiz. Bizning maqsadimiz - har bir o'quvchiga nafaqat dasturlashni o'rgatish, balki ularni kelajakdagi muvaffaqiyatli karyeraga tayyorlashdir. Biz har bir talabaning individual rivojlanishiga alohida e'tibor qaratamiz va zamonaviy ta'lim metodlaridan foydalanamiz."
+      },
+      "features": {
+        "modern": {
+          "title": "Zamonaviy dasturlash",
+          "description": "Eng so'nggi texnologiyalar va dasturlash tillarini o'rgatamiz"
+        },
+        "teachers": {
+          "title": "Tajribali o'qituvchilar",
+          "description": "Professional mentorlar va amaliyotchi dasturchilardan ta'lim"
+        },
+        "practice": {
+          "title": "Amaliy tajriba",
+          "description": "Real loyihalar ustida ishlash va portfolio yaratish imkoniyati"
+        }
+      },
+      "stats": {
+        "graduates": {
+          "label": "Muvaffaqiyatli bitiruvchilar"
+        },
+        "teachers": {
+          "label": "Professional o'qituvchilar"
+        },
+        "courses": {
+          "label": "Zamonaviy kurslar"
+        },
+        "employment": {
+          "label": "Ishga joylashish darajasi"
+        }
+      },
+      "advantages": {
+        "sectionTitle": "Top IT akademiya",
+        "certificates": {
+          "title": "Xalqaro sertifikatlar",
+          "description": "Xalqaro standartlarga mos sertifikatlar bilan ta'minlaymiz"
+        },
+        "partnership": {
+          "title": "IT kompaniyalar bilan hamkorlik",
+          "description": "Yetakchi IT kompaniyalar bilan hamkorlikda ish olib boramiz"
+        },
+        "education": {
+          "title": "Amaliy ta'lim",
+          "description": "Nazariy bilimlar bilan birga amaliy ko'nikmalarni shakllantiramiz"
+        }
+      },
+      "values": {
+        "sectionTitle": "Bizning qadriyatlarimiz",
+        "individual": {
+          "title": "Individual yondashuv",
+          "description": "Har bir talabaga alohida e'tibor va yordam"
+        },
+        "quality": {
+          "title": "Sifatli ta'lim",
+          "description": "Xalqaro standartlarga mos o'quv dasturi"
+        },
+        "career": {
+          "title": "Karera qo'llab-quvvatlash",
+          "description": "Ishga joylashishda yordam va maslahatlar"
+        }
+      }
+    }
+  },
+  "mentors": {
+    "FirstMentorsPage": {
+      "pageTitle": "Bizning mentorlar",
+      "pageSubtitle": "Sizga muvaffaqiyatga erishishga yordam beradigan tajribali mutaxassislar",
+      "specializationLabel": "Ixtisosligi"
+    }
+  },
+  "courses": {
+    "currency": "so'm",
+    "month": "oy",
+    "fullPrice": "Kursning to'liq narxi",
+    "fullPriceDescription": "To'liq kurs uchun to'lov",
+    "totalAmount": "Jami to'lov",
+    "installmentTitle": "Bo'lib to'lash shartlari",
+    "monthlyPayment": "Oylik to'lov",
+    "totalWithInstallment": "Bo'lib to'lash bilan jami",
+    "installmentDescription": "Bo'lib to'lash haqida muhim ma'lumot",
+    "installmentRequirements": {
+      "work": "Bo'lib to'lash uchun siz rasmiy ishlaydigan bo'lishingiz kerak",
+      "guarantor": "Agar ishlamayotgan bo'lsangiz, rasmiy ishlaydigan kafil kerak bo'ladi",
+      "documents": "Passport talab qilinadi (sizniki va kafilniki, agar kerak bo'lsa)",
+      "payment": "To'lov o'qishni tugatganingizdan 2 oy o'tgach to'lab kelishingiz zarur bo'ladi!"
+    },
+    "installmentNote": "* Bo'lib to'lashda oylik to'lov 30% qo'shimcha to'lov bilan hisoblanadi",
+    "notFound": "Kurs topilmadi",
+    "aboutCourse": "Kurs haqida",
+    "duration": "Davomiyligi",
+    "moreDetails": "Bo'lib to'lash uchun nima kerak",
+    "button": "Bo'lib to'lash uchun nima kerak",
+    "FirstCoursesPage": {
+      "frontend": {
+        "title": "Front-end",
+        "description": "Web dasturlashning front qismi. HTML, CSS, JavaScript, React va boshqa zamonaviy texnologiyalar.",
+        "duration": "6 oy",
+        "price": "1 200 000"
+      },
+      "backend": {
+        "title": "Back-end",
+        "description": "Serverda ishlaydigan dasturlar yaratish. Node.js, Python va Ma'lumotlar bazasi va API yaratish.",
+        "duration": "8 oy",
+        "price": "1 500 000"
+      },
+      "mobile": {
+        "title": "Mobilograf",
+        "description": "Mobile ilovalar yaratish. Android va iOS platformalari uchun zamonaviy ilovalar.",
+        "duration": "7 oy",
+        "price": "1 300 000"
+      },
+      "smm": {
+        "title": "SMM",
+        "description": "Ijtimoiy tarmoqlar marketingi. Strategiya, kontent yaratish va auditoriya bilan ishlash.",
+        "duration": "3 oy",
+        "price": "800 000"
+      },
+      "design": {
+        "title": "Dizayn",
+        "description": "UI/UX dizayn asoslari. Grafik dizayn, web va mobile ilovalar uchun interfeys yaratish.",
+        "duration": "4 oy",
+        "price": "1 000 000"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Raqamli marketing strategiyalari. Internet-marketing, SEO va reklama kampaniyalari.",
+        "duration": "4 oy",
+        "price": "900 000"
+      },
+      "button": "Batafsil",
+      "installment": "Muddatli to'lov"
+    }
+  },
+  "contact": {
+    "FirstContactPage": {
+      "title": "Biz bilan aloqaga chiqmohchimisiz?",
+      "subtitle": "Formani to'ldiring va biz siz bilan bog'lanamiz",
+      "form": {
+        "name": {
+          "label": "Ismingiz",
+          "placeholder": "Ismingizni kiriting",
+          "errors": {
+            "required": "Bu maydon to'ldirilishi shart",
+            "min": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+            "max": "Ism 50 ta belgidan oshmasligi kerak"
+          }
+        },
+        "phone": {
+          "label": "Telefon raqamingiz",
+          "placeholder": "+998 90 123 45 67",
+          "errors": {
+            "required": "Telefon raqam kiritish majburiy",
+            "invalid": "Telefon raqam formati noto'g'ri. Masalan: +998901234567"
+          }
+        },
+        "submit": "Yuborish",
+        "modal": {
+          "title": "Rahmat!",
+          "text": "Hurmatli {name}, siz bilan tez orada bog'lanamiz"
+        }
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "IT Time Academy",
+      "description": "Zamonaviy IT kasblarini professional darajada o'rgatuvchi o'quv markazi. Kelajak kasblarini biz bilan o'rganing!"
+    },
+    "courses": {
+      "title": "Kurslar"
+    },
+    "contact": {
+      "title": "Bog'lanish",
+      "address": "Toshkent, Amir Temur shoh ko‘chasi, 100A.",
+      "phone": "+998 (94) 782 00 92",
+      "email": "ittimeacademy@gmail.com",
+      "workingHours": "Du-Sha: 09:00 - 22:00"
+    },
+    "copyright": {
+      "text": "Barcha huquqlar himoyalangan"
+    },
+    "links": {
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari"
+    }
+  },
+  "arizaModal": {
+    "title": "Ariza qoldiring",
+    "description": "O'zingizni qiziqtirgan kurs bo'yicha ariza qoldiring va biz siz bilan bog'lanamiz",
+    "form": {
+      "name": "Ismingiz",
+      "selectCourse": "Kursni tanlang",
+      "phone": "Telefon raqamingiz",
+      "submit": "Yuborish"
+    },
+    "errors": {
+      "name": {
+        "required": "Ism kiritish majburiy",
+        "min": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+        "max": "Ism 50 ta belgidan oshmasligi kerak"
+      },
+      "course": {
+        "required": "Kursni tanlash majburiy"
+      },
+      "phone": {
+        "required": "Telefon raqam kiritish majburiy",
+        "invalid": "Telefon raqami +998 XX XXX XX XX formatida bo'lishi kerak"
+      }
+    }
+  },
+  "consultationModal": {
+    "title": "Bepul konsultatsiya",
+    "description": "Formani to'ldiring va biz siz bilan bog'lanamiz",
+    "form": {
+      "name": "Ismingiz",
+      "selectCourse": "Kursni tanlang",
+      "phone": "Telefon raqamingiz",
+      "submit": "Yuborish"
+    },
+    "errors": {
+      "name": {
+        "required": "Ism kiritish majburiy",
+        "min": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+        "max": "Ism 50 ta belgidan oshmasligi kerak"
+      },
+      "course": {
+        "required": "Kursni tanlash majburiy"
+      },
+      "phone": {
+        "required": "Telefon raqam kiritish majburiy",
+        "invalid": "Telefon raqami +998 XX XXX XX XX formatida bo'lishi kerak"
+      }
+    }
+  },
+  "successModal": {
+    "title": "Rahmat!",
+    "text": "Hurmatli {name}, arizangiz qabul qilindi. Tez orada siz bilan bog'lanamiz!"
+  },
+  "modal": {
+    "promotion": {
+      "title": " Super aksiya!",
+      "subtitle": "Do'stingizni taklif qiling va bonus oling!",
+      "conditions": {
+        "title": "Aksiya shartlari:",
+        "student": "Siz bizning talabamiz (hozirgi yoki sobiq) kamida 1 oy bo'lishingiz kerak",
+        "invite": "Do'stingizni akademiyamizda o'qishga taklif qiling"
+      },
+      "benefits": {
+        "title": "Sizning bonuslaringiz:",
+        "yourBonus": "Siz keyingi to'lov yoki kurs uchun 500 000 so'm olasiz",
+        "friendBonus": "Do'stingiz o'qish uchun 20% chegirma oladi"
+      },
+      "note": "* Aksiya barcha shartlar bajarilganda amal qiladi"
+    }
+  },
+  "buttons": {
+    "details": "Batafsil"
+  },
+  "validation": {
+    "resume": {
+      "required": "Rezyume faylingizni yuklashingiz shart",
+      "fileType": "Faqat PDF yoki Word (doc, docx) formatidagi fayllarni yuklashingiz mumkin",
+      "fileSize": "Fayl hajmi 5MB dan oshmasligi kerak"
+    },
+    "education": {
+      "minLength": "Ma'lumotingiz haqida kamida 10 ta belgi kiriting",
+      "maxLength": "Ma'lumotingiz haqida 500 ta belgidan oshmasligi kerak"
+    },
+    "experience": {
+      "minLength": "Ish tajribangiz haqida kamida 10 ta belgi kiriting",
+      "maxLength": "Ish tajribangiz 1000 ta belgidan oshmasligi kerak"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Sahifa topilmadi",
+    "description": "Siz qidirayotgan sahifa mavjud emas yoki ko'chirilgan.",
+    "button": "Bosh sahifaga qaytish"
+  }
+}

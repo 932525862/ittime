@@ -1,0 +1,149 @@
+/* Для карточки с урезанными углами */
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #6e0909, #2a2a2a);
+   cursor: pointer;
+    transition: all 0.4s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 20px rgba(182, 25, 36, 0.1);
+}
+
+/* Для урезания верхнего левого угла */
+.custom-card::before {
+    content: '✿';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #b61924;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Для урезания нижнего правого угла */
+.custom-card::after {
+    content: '✿';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #b61924;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Добавляем эффект при наведении */
+.custom-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(182, 25, 36, 0.2);
+    border: 2px solid #b61924;
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+}
+
+/* Стили для иконок */
+.custom-card svg {
+    color: #ffffff;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 0 8px rgba(182, 25, 36, 0.3));
+    margin-top: 5px;
+}
+
+.custom-card:hover svg {
+    transform: scale(1.15) rotate(5deg);
+    color: #ff2d3d;
+    filter: drop-shadow(0 0 12px rgba(182, 25, 36, 0.5));
+}
+
+/* Стили для текста под иконками */
+.custom-card p {
+    color: white;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.65rem;
+    background: linear-gradient(145deg, rgba(182, 25, 36, 0.1), rgba(182, 25, 36, 0.2));
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover p {
+    background: linear-gradient(145deg, rgba(182, 25, 36, 0.2), rgba(182, 25, 36, 0.3));
+    transform: scale(1.05);
+}
+
+h2 {
+    background: linear-gradient(to right, #d81929, #ff1f30);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+h2 span {
+    background: linear-gradient(to right, #000000, #1a1a1a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.text-lg {
+    color: #1a1a1a;
+    line-height: 1.8;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.animated-button {
+    background: linear-gradient(45deg, #b61924, #ff2d3d);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 4px 15px rgba(182, 25, 36, 0.3);
+}
+
+.animated-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff2d3d, #b61924);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.animated-button:hover::before {
+    opacity: 1;
+}
+
+.animated-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(182, 25, 36, 0.4);
+}
+
+.animated-button:active {
+    transform: translateY(1px);
+}
