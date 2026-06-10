@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FaPhone, FaTelegram, FaInstagram } from 'react-icons/fa'
+import { IoPlay } from 'react-icons/io5'
 import ConsultationModal from '../../consultation-modal/ConsultationModal'
+import LessonsModal from '../../lessons-modal/LessonsModal'
 import LanguageSelector from './LanguageSelector'
 import { useTranslation } from 'react-i18next'
 
 export default function BurgerNavigation({ isOpen, setIsOpen }) {
   const location = useLocation();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLessonsOpen, setIsLessonsOpen] = useState(false);
   const { t } = useTranslation();
 
   const handleLinkClick = () => {
@@ -100,11 +103,27 @@ export default function BurgerNavigation({ isOpen, setIsOpen }) {
           >
             {t('header.menu.consultation')}
           </button>
+
+          {/* Darsliklar mobile button */}
+          <button
+            onClick={() => {
+              setIsLessonsOpen(true);
+              setIsOpen(false);
+            }}
+            className="w-full mt-3 flex items-center justify-center gap-2 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-600 text-white px-6 py-3 rounded-lg font-medium shadow-xl hover:scale-105 transition-all duration-300"
+          >
+            <IoPlay className="w-5 h-5" />
+            <span>Darsliklar</span>
+          </button>
         </nav>
 
         <ConsultationModal 
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
+        />
+        <LessonsModal
+          isOpen={isLessonsOpen}
+          onClose={() => setIsLessonsOpen(false)}
         />
       </div>
     </div>
