@@ -1,5 +1,5 @@
 import images1 from '../assets/images/RUSTAMBEK-MAMADALIYEV.jpg'
-import images2 from "../assets/images/G'OFUROVA-GULBAHOR.jpg"
+import images2 from "../assets/images/aaa.jpg"
 import images3 from "../assets/images/ISLOMBEK-RAHIMJONOV.png"
 import images4 from '../assets/images/BEHRUZBEK-NAZAROV.jpg'
 import images5 from '../assets/images/XOLMATOV-DILSHOD.jpg'
