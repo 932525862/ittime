@@ -40,40 +40,40 @@ export const mentorsData = [
       github: 'https://github.com/the-rustambek'
     }
   },
-  {
-    id: 2,
-    name: {
-      uz: 'G\'ofurova Gulbahor',
-      ru: 'Гафурова Гульбахор',
-      kr: 'G\'ofurova Gulbahor',
-      en: 'G\'ofurova Gulbahor'
-    },
-    position: {
-      uz: "Grafik dizayn o'qituvchisi",
-      ru: "Преподаватель графического дизайна",
-      kr: "График дизайн ўқитувчиси",
-      en: "Graphic Design Teacher"
-    },
-    image: images2,
-    description: {
-      uz: "Grafik dizayn va raqamli san'at bo'yicha tajribali o'qituvchi",
-      ru: "Опытный преподаватель по графическому дизайну и цифровому искусству",
-      kr: "График дизайн ва рақамли санъат бўйича тажрибали ўқитувчи",
-      en: "Experienced teacher in graphic design and digital art"
-    },
-    specialization: 'Adobe Photoshop, Illustrator, Figma, UI/UX, After Effects, Premiere Pro, CorelDraw',
-    fullDescription: {
-      uz: "Grafik dizayn sohasida boy tajribaga ega o'qituvchi sifatida, o'quvchilarga zamonaviy dizayn dasturlari va texnologiyalarini o'rgatish bo'yicha katta ishtiyoq bilan yondashaman.",
-      ru: "Как опытный преподаватель в области графического дизайна, я подхожу к обучению студентов современным дизайн программам и технологиям с большим энтузиазмом.",
-      kr: "График дизайн соҳасида бой тажрибага эга ўқитувчи сифатида, ўқувчиларга замонавий дизайн дастурлари ва технологияларини ўргатиш бўйича катта иштиёқ билан ёндашаман.",
-      en: "As an experienced teacher in graphic design, I approach teaching students modern design programs and technologies with great enthusiasm."
-    },
-    social: {
-      linkedin: 'https://linkedin.com',
-      telegram: 'https://t.me/username',
-      github: 'https://github.com'
-    }
+ {
+  id: 2,
+  name: {
+    uz: 'Mahkamov Ahadjon',
+    ru: 'Махкамов Ахаджон',
+    kr: 'Mahkamov Ahadjon',
+    en: 'Mahkamov Ahadjon'
   },
+  position: {
+    uz: "Frontend o'qituvchisi",
+    ru: "Преподаватель Frontend разработки",
+    kr: "Frontend ўқитувчиси",
+    en: "Frontend Web Development Teacher"
+  },
+  image: images2,
+  description: {
+    uz: "Veb dasturlash va zamonaviy frontend texnologiyalari bo'yicha tajribali o'qituvchi",
+    ru: "Опытный преподаватель по веб-программированию и современным frontend технологиям",
+    kr: "Веб дастурлаш ва замонавий frontend технологиялари бўйича тажрибали ўқитувчи",
+    en: "Experienced teacher in web programming and modern frontend technologies"
+  },
+  specialization: 'HTML, CSS, JavaScript, React.js, Next.js, Git, GitHub, Responsive Design',
+  fullDescription: {
+    uz: "Veb dasturlash sohasida boy tajribaga ega o'qituvchi sifatida, o'quvchilarga zamonaviy frontend dasturlash tillari va texnologiyalarini o'rgatish bo'yicha katta ishtiyoq bilan yondashaman.",
+    ru: "Как опытный преподаватель в области веб-программирования, я подхожу к обучению студентов современным frontend технологиям с большим энтузиазмом.",
+    kr: "Веб дастурлаш соҳасида бой тажрибага эга ўқитувчи сифатида, ўқувчиларга замонавий frontend дастурлаш тиллари ва технологияларини ўргатиш бўйича катта иштиёқ билан ёндашаман.",
+    en: "As an experienced teacher in web development, I approach teaching students modern frontend programming languages and technologies with great enthusiasm."
+  },
+  social: {
+    linkedin: 'https://www.linkedin.com/in/mahkamov',
+    telegram: 'https://t.me/mahkamov_9',
+    github: 'https://github.com/Mahkamov9'
+  }
+},
   {
     id: 3,
     name: {
