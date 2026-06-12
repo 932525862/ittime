@@ -5,6 +5,7 @@ import About from '../../pages/about';
 import Contact from '../../pages/contact';
 import Courses from '../../pages/courses';
 import Mentors from '../../pages/mentors';
+import Lessons from '../../pages/lessons';
 import CourseDetail from '../../pages/courses/pages/CourseDetail';
 import NotFound from '../../pages/NotFound';
 import HeaderLayout from '../../layout/HeaderLayout';
@@ -30,6 +31,10 @@ export const routes = [
   {
     path: '/courses',
     element: <Courses />
+  },
+  {
+    path: '/lessons',
+    element: <Lessons />
   },
   {
     path: '/courses/:id',

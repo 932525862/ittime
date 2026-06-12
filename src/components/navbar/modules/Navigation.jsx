@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import ConsultationModal from '../../consultation-modal/ConsultationModal'
-import LessonsModal from '../../lessons-modal/LessonsModal'
 import { IoPlay } from 'react-icons/io5'
 import { scrollToTop } from '../../../helpers/scroll';
 import { useTranslation } from 'react-i18next';
@@ -9,7 +8,6 @@ import { useTranslation } from 'react-i18next';
 export default function Navigation() {
   const location = useLocation()
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [isLessonsOpen, setIsLessonsOpen] = useState(false)
   const { t } = useTranslation();
 
   return (
@@ -72,27 +70,25 @@ export default function Navigation() {
         {t('header.menu.consultation')}
       </button>
 
-      <button
-        onClick={() => setIsLessonsOpen(true)}
-        aria-label="Darsliklar"
+      <Link
+        to="/lessons"
+        onClick={scrollToTop}
         className="relative inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white
                    bg-gradient-to-r from-yellow-400 via-red-500 to-pink-600 shadow-2xl transform transition-all duration-300
                    hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-300/60"
+        aria-label="Darsliklar"
       >
         <IoPlay className="w-4 h-4 opacity-95" />
         <span className="leading-none">Darsliklar</span>
         <span className="absolute -right-2 -top-2 inline-block h-3 w-3 rounded-full bg-white/70 animate-pulse" />
-      </button>
+      </Link>
 
       <ConsultationModal 
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
 
-      <LessonsModal
-        isOpen={isLessonsOpen}
-        onClose={() => setIsLessonsOpen(false)}
-      />
+      {/* Lessons now opens on a separate page at /lessons */}
     </div>
   )
 }
